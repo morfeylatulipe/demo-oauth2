@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Регистрация</title>
+</head>
+
+<body>
+<div>
+    <form method="POST" action="/registration">
+        <h2>Регистрация</h2>
+        <div>
+            <label>
+                <input type="text" name="username" placeholder="Username"
+                       autofocus/>
+            </label>
+            <!--            <errors path="username"></errors>-->
+            <!--            ${usernameError}-->
+        </div>
+        <div>
+            <label>
+                <input type="password" name="password" placeholder="Password"/>
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="password" name="passwordConfirm"
+                       placeholder="Confirm your password"/>
+            </label>
+            <!--            <errors path="password"></errors>-->
+            <!--            ${passwordError}-->
+        </div>
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+    <a href="/">Главная</a>
+</div>
+</body>
+</html>

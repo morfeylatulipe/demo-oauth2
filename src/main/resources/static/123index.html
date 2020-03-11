@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Главная</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.1"></script>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+<div>
+    <h3>Welcome, %username%</h3>
+<!--    <div access="!isAuthenticated()">-->
+        <h4><a href="/login">Войти</a></h4>
+        <h4><a href="/registration">Зарегистрироваться</a></h4>
+<!--    </div>-->
+<!--    <div access="isAuthenticated()">-->
+        <h4><a href="/logout">Выйти</a></h4>
+<!--    </div>-->
+    <h4><a href="/news">Новости (только пользователь)</a></h4>
+    <h4><a href="/admin">Пользователи (только админ)</a></h4>
+</div>
+</body>
+</html>
